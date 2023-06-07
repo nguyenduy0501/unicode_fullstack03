@@ -7,31 +7,24 @@ html{
 
     padding: 40x 100px;
     border-radius: 5px; 
-    /* margin-top: 40px; */
-
-}
+ }
 .content{
     padding-top: 15px;
     padding-left: 30px;
     padding-bottom: 20px;
 }
-/* .item{
-    color: #eea405;
-} */
+
 .send{
     height: 40px;
-    /* width: 20%; */
     background-color: yellow;
     border-radius: 5px;
 }
 .email{
     height: 34.8px;
-    /* width: 25%; */
     padding-left: 10px;
-    /* background-color: yellow; */
     border-radius: 5px;
 }
-/* làm theo bài học */
+
 h1::before{
     content: 'Earn income';
     color: #eea405;
