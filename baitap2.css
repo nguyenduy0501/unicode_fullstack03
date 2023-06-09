@@ -1,0 +1,37 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    background-color: rgb(47, 93, 145);
+    color: #fff;
+
+    padding: 40x 100px;
+    border-radius: 5px; 
+ }
+.content{
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.send{
+    height: 40px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+.email{
+    height: 34.8px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+h1::before{
+    content: 'Earn income';
+    color: #eea405;
+}
+
+.container:hover .send{
+    background: red;
+    color: #fff;
+}
+
