@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+    font-size: 16px;
+}
+
+h2{
+    text-align: center;
+    margin: 30px auto;
+}
+
+.text{
+    font-style: italic;
+    margin: 30px 30px
+    
+}
+
+.tacgia{
+    font-weight: bolder;
+    margin: 30px 30px
+}
