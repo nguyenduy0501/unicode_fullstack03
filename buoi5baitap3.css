@@ -1,0 +1,241 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body{
+    font-size: 16px;
+}
+
+.form-book{
+    font-weight: bolder;
+    width: 700px;
+    margin: 30px auto;
+    border: 1px solid #fff;
+}
+
+.header{
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 4rem;
+    margin-bottom: 1px;
+    font-weight: bolder;
+}
+
+.column{
+    text-transform: uppercase;
+}
+
+.column, .btn{
+    float: left;
+    width: 45%;
+    /* padding: 10px; */
+    height: 40px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.btn{
+    background: red;
+    color: #fff;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* @media (max-width:400px){
+    .column{
+        width: 100%;
+    }
+} */
+
+/*Xong bài 1*/
+
+.form-contact{
+    font-weight:normal;
+    width: 700px;
+    margin: 30px auto;
+    border: 1px solid #fff;
+    
+}
+
+
+.form-heading{
+    text-align: left;
+    padding: 20px;
+}
+
+.content{
+    color: initial;
+}
+
+.form-heading h1{
+    border: 2px solid #fff;
+    margin-bottom: 40px;
+}
+
+.content::before{
+    content: "We'd like to hear from yor. ";
+    color: red;
+}
+
+p{
+    width: 95%;
+}
+
+.form-inner{
+    width: 100%;
+}
+
+.field-group:hover .form-item{
+    border: 1px solid #000;
+}
+
+.form-inner .form-item{
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: none;
+    width: 90%;;
+}
+
+.form-inner textarea.form-item{
+    height: 80px;
+}
+
+.form-inner
+
+i{  margin-left: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #ccc;
+}
+
+.field-group .nav-icon {
+    font-size: 15px;
+}
+
+.checked{
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+.btn-form{
+    background-color: red;
+    color: #fff;
+    border: none;
+    float: right;
+    margin-right: 15px;
+    padding: 10px 30px;
+}
+
+/*Xong bài 2*/
+
+.color{
+    width: 700px;
+    text-align: left;
+    margin: 10px auto;
+    border: 1px solid #fff ;
+}
+
+.color-item{
+    background-color: #ff6804;
+    margin: 10px auto;
+    padding: 10px 10px;
+}
+
+.color-field {
+    margin: 20px;
+    /* position: relative; */
+    /* display: none; */
+    /* position: absolute; */
+}
+
+.nav, .color-field {
+    list-style-type: none;
+}
+/*
+Xong bài 3
+*/
+
+.services{
+    
+    width: 1000px;
+    margin: 50px auto;
+    border: 2px solid #fff;
+
+    font-size: 1rem;
+}
+
+.services h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.services .libero {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 100px;
+    opacity: 50%;
+}
+
+.services .member-list {
+   width: 30%;
+   height: 350px;
+    margin: 10px 5px;
+   border: 1px solid #f39304;
+   float: left;
+   text-align: center;
+}
+
+.member-list .list-info {
+    font-size: 0.8rem;
+    opacity: 50%;
+    margin: 20px auto;
+}
+
+.member-list .img-item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.member-list .list {
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+.member-list .member-btn {
+    background-color: #f39304;
+    padding: 10px 10px;
+    border-radius: none;
+    border: none;
+    
+}
+
+.member-list .member-btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
